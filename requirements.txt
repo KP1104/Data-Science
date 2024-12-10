@@ -1,0 +1,43 @@
+# Data Analysis and Visualization Using Yelp and UberEats Data
+
+This repository contains Python scripts for data scraping, API fetching, analysis, and visualization. It focuses on leveraging data from platforms like Yelp and UberEats to extract insights using Python-based tools.
+
+---
+
+**Features**
+
+1. Data Processing
+   -`hw4.py`: Supports scraping data from Yelp, fetching data from Yelp's API, and working with static datasets (CSV/JSON).
+   -`hw5.py`: Handles advanced data analysis and visualization using UberEats data.
+
+2. Data Analysis
+   - Analyzes review ratings, price buckets, and geospatial data.
+   - Visualizes distributions, correlations, and trends using plots.
+
+3. Entity-Relationship Diagram (ERD)
+   - `ERD Diagram.pdf`: Highlights the relationship between entities like Location, Merchant, and Review.
+
+4. Dataset
+   - `Ubereats_dataset.csv`: Contains structured data for performing data analysis and visualization.
+
+---
+
+Requirements
+
+### Python Environment
+Ensure you have Python installed. Use `pip` to install the required packages:
+```bash
+pip install pandas beautifulsoup4 requests matplotlib seaborn
+```
+
+# Static Mode
+python3 hw4.py --static /path/to/dataset.csv
+
+# Scrape Mode
+python3 hw4.py --scrape
+
+# Default Mode
+python3 hw4.py
+
+# running hw5.py file for insights and statistics
+python3 hw5.py 

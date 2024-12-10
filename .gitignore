@@ -1,0 +1,32 @@
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment directories
+env/
+venv/
+.venv/
+
+# Data files and datasets
+data/
+static_datasets/
+*.csv
+*.json
+
+# Logs and debug files
+*.log
+debug.log
+
+# OS-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Backup and temporary files
+*~
+*.swp
